@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cognition</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/navbar.css" />
+    <link rel="stylesheet" href="./assets/css/home-page.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css"/>
+    <link rel="stylesheet" href="./assets/css/timeline.css"/>
+    <link rel="stylesheet" href="./assets/css/prize.css"/>
+    <link rel="stylesheet" href="./assets/css/sponsor.css"/>
+    <link rel="stylesheet" href="./assets/css/faq.css"/>
+    <link rel="stylesheet" href="./assets/css/about.css"/>
+    <link rel="stylesheet" href="./assets/css/tracks.css">
+    <link rel="stylesheet" media="screen and (max-width: 1030px)" href="./assets/css/mediaquery.css"/>
+  </head>
+  <body>
+    <!-- particle js files -->
+    <div id="particles-js"></div>
+    <!-- navbar section -->
+    <div id="overlay">
+      <a href="#Home-Page">Home</a><br />
+      <a href="#about-us">About Us</a><br />
+      <a href="#tracks">Tracks</a><br />
+      <a href="#prize">Prizes</a><br />
+      <a href="#timeline">Timeline</a><br />
+      <a href="#sponsor">Sponsors</a><br />
+      <a href="#faqs">F.A.Qs</a><br />
+      <a href="#contact">Contact Us</a><br />
+    </div>
+    <div id="mob-navbar">
+      <div id="hamburger">
+        <div></div>
+      </div>
+    </div>
+
+    <!-- discord and scroll down -->
+    <div id="discord">
+      <a href="https://discord.gg/3qcMXkpgFg" class="flex-center">
+        <i class="fa-brands fa-discord discord-logo"></i><br />
+        <span class="discord-text">Join Our Discord</span>
+      </a>
+    </div>
+
+    <div id="scroll-down" class="flex-center">
+      <div class="text">Scroll Down</div>
+      <div class="line"></div>
+    </div>
+
+    <!-- section for home page-->
+    <section id="Home-Page" class="flex-center">
+      <div id="main-heading">
+        <div class="logo">
+          <img class="main-logo" src="./assets/images/Logo.png" />
+        </div>
+        <h1 class="main-heading">
+          <div class="title">Cognition</div>
+          <div class="desc">a chance to test your knowledge</div>
+        </h1>
+      </div>
+
+      <div id="timer-section" class="flex-center">
+        <div class="timer-title">Begins In</div>
+        <div class="timer">
+          <div id="days"></div>
+          <div class="semicolon">:</div>
+          <div id="hours"></div>
+          <div class="semicolon">:</div>
+          <div id="minutes"></div>
+          <div class="semicolon">:</div>
+          <div id="seconds"></div>
+        </div>
+      </div>
+
+      <div
+        id="date"
+        style="font-size: 35px; font-family: 'Poppins'; margin: 2rem"
+      >
+        <span style="color: #ff9f29">5th</span> to
+        <span style="color: #c3c3c3">8th August</span>
+      </div>
+
+      <div id="button" onclick="window.location='https://cognition.devpost.com/?ref_feature=challenge&ref_medium=discover'">Apply Now</div>
+    </section>
+
+    <!-- section for about us -->
+    <section id="about-us">
+      <h1>ABOUT US</h1>
+      <div id="about-cognition" class="flexBox">
+        <div>
+          <h2>Cognition</h2>
+          <span class="desc">Cognition is a <font color="white">48-hour student-organized hackathon</font> working to bring technical solutions to real-world problems. We
+          welcome all students, of high school level and beyond, and of all technical proficiency levels, to join us on <font color="white">Aug 5th -
+          8th, 2022.</font></span>
+        </div>
+        <img src="/assets/images/Logo1.png" alt="">
+      </div>
+      <br><br>
+      <div id="about-vitmas" class="flexBox">
+        <img src="/assets/images/vitmas-white-text1.png" alt="">
+        <div>
+          <h2>VITMAS</h2>
+          <span class="desc"><font color="white">VITMAS (VIT Mathematical Association)</font> is one of the most distinguished & diligent technical chapter in VIT. We are not
+          just an organization, we are an enthusiastic family, united by one cause, working towards making technology more
+          accessible, comprehensible & implementable. The students of VITMAS happen to be great learners and skilled technicians –
+          who’ve conquered multiple hacks in and around VIT, won commendable research awards and also have a lot of experience and
+          projects at hand to share to budding engineers.</span>
+        </div>
+      </div>
+      <br><br>
+      <div id="about-sas" class="flexBox">
+        <div>
+          <h2>SAS</h2>
+          <span class="desc"><font color="white">School of Advanced Sciences (SAS) of VIT, Vellore</font>, which was established in the year 1984, comprises Mathematics,
+          Physics, and Chemistry departments. The vision of the School is to provide quality teaching and research which would
+          make an impact at a global level. <font color="white">The School consists of a total of 232 experienced and energetic faculty which includes
+          116 in Mathematics, 45 in Physics, and 71 in Chemistry.</font> Most of them are experts in their research fields, evident from
+          their publications and research funding. Many of them are having after long years of research experience, both in India
+          and abroad in reputed organizations.<font color="white"> The Departments are recognized by DST-FIST to establish sophisticated instrumental
+          facilities.</font></span>
+        </div>
+        <img src="/assets/images/sas.png" alt="">
+      </div>
+    </section>
+
+    <!-- section for tracks -->
+    <section id="tracks">
+      <h1>TRACKS</h1>
+      <main>
+        <div class='card'>
+          <div class='info'>
+            <h2 class='title'>Health Care</h2>
+            <p class='description'>Healthcare category is open ended and we encourage you to think about ways to boost
+              people's health either mentally or physically!</p>
+          </div>
+        </div>
+        <div class='card'>
+          <div class='info'>
+            <h2 class='title'>Fin Tech</h2>
+            <p class='description'>Financial technology, also known as fin-tech, is an economic industry composed of companies
+              that use technology to make financial services more efficient.</p>
+          </div>
+        </div>
+        <div class='card'>
+          <div class='info'>
+            <h2 class='title'>Education</h2>
+            <p class='description'>Education is one of the cornerstones of human civilization and is of extreme importance to
+              us. Over the years, E-books, virtual classrooms and online education portals have revolutionized education.</p>
+          </div>
+        </div>
+        <div class='card'>
+          <div class='info'>
+            <h2 class='title'>Open Innovation</h2>
+            <p class='description'>Open innovation is the use of an organisation’s internal knowledge and benefiting from
+              external innovative solutions by collaborating with people and organisations outside the company.</p>
+          </div>
+        </div>
+        <div class='card'>
+          <div class='info'>
+            <h2 class='title'>InsideFPV</h2>
+            <p class='description'>One of India's fastest growing plug-and-fly FPV drone startup recognized by Govt. of India
+              under the Robotics Industry. The problem statement for this track will be released during opening ceremony</p>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <!-- section for prizes -->
+    <section id="prize">
+        <p class="prizeheading" style="font-family: 'Jura';">PRIZES</p>
+        <div>
+            <p class="prizedescription"style="font-family: 'poppins';" >Will be announced soon</p>
+        </div>
+    
+    </section>
+
+    <!-- section for timeline -->
+    <section id="timeline">
+      <p class="timehead" style="font-family: 'Jura';">TIMELINE</p>
+      <div class="containe" >
+            <div class="timeline">
+              <ul>
+                <li>
+                  <div class="timeline-content">
+                    <h3 class="date" style="font-family:poppins;font-weight: 100;">5th August, 2022</h3>
+                    <h1 class="event">Inauguration</h1>
+                    <p>6:30pm - 7:30pm</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content">
+                    <h3 class="date" style="font-family:poppins;font-weight: 100;">5th August-7th August 2022</h3>
+                    <h1 class="event">Hacking Period</h1>
+                    <p>5th Aug, 7:30pm - 7th Aug, 7:30pm</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content">
+                    <h3 class="date" style="font-family:poppins; font-weight: 100;">8th August, 2022</h3>
+                    <h1 class="event">Prize Distribution Ceremony</h1>
+                    <p>5:00pm - 7:30pm</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+    </section>
+
+    <!-- section for faqs-->
+    <section id="faqs">
+      <div class="container2">
+        <p class="faqheading" style="font-family: 'Jura';">FAQs</p>
+
+      <div style="visibility: hidden; position: absolute; width: 0px; height: 0px;">
+        <svg xmlns="http://www.w3.org/2000/svg">
+          <symbol viewBox="0 0 24 24" id="expand-more">
+            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/><path d="M0 0h24v24H0z" fill="none"/>
+          </symbol>
+          <symbol viewBox="0 0 24 24" id="close">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/>
+          </symbol>
+        </svg>
+      </div>
+      
+      <details open>
+        <summary>
+          What is Hackathon ?
+          <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+          <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+        </summary>
+        <p>A hackathon is a creative marathon all about building something cool. Students are encouraged to come up with an idea, form teams, and then build out that idea (typically through programming!) into a product in 48 hours. We want you to take something you love (sports, art, camping, anything!) and combine it with technology to make something awesome. It's a great time to push the envelope and learn some new skills.</p>
+      </details>
+      
+      <details>
+      
+        <summary>
+          Do I have to be experienced to attend?
+          <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+          <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+        </summary>
+        <p>No prior experience is required to attend Cognition Hackathon. Exciting workshops and helpful mentors will give you the resources to help you build your dream project. Just come with your head and a willingness to learn</p>
+      </details>
+      
+      <details>
+        <summary>
+          Is it ok if I don't have a team?   
+          <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+          <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+        </summary>
+        <p>No idea? No team? No problem! There will be dedicated events for idea creation and team formations.</p>
+      </details>
+      <details>
+        <summary>
+          Who can apply?  
+          <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+          <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+        </summary>
+        <p>We welcome all students, of high school level and beyond, and of all technical proficiency levels.</p>
+      </details>
+      <details>
+        <summary>
+          What should be the team size?
+          <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+          <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+        </summary>
+        <p>Team size should be 2-4</p>
+      </details>
+      <details>
+        <summary>
+          Is this hackathon free to attend?
+          <svg class="control-icon control-icon-expand" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#expand-more" /></svg>
+          <svg class="control-icon control-icon-close" width="24" height="24" role="presentation"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close" /></svg>
+        </summary>
+        <p>Yes! There is no cost to attend Cognition Hackathon</p>
+      </details>
+      </div>
+
+    </section>
+
+    <!-- section for sponsors-->
+    <section id="sponsor">
+      <p class="sponheading" style="font-family: 'Jura';">SPONSORS</p>
+      <div>
+          <p class="spondescription"style="font-family: 'poppins';" >Will be announced soon....</p>
+      </div>
+    </section>
+
+    <!-- section for footer -->
+    <section class="contact section" id="contact">
+        <div class="wrapper">
+            <div class="group3">
+                <div class="contact-menu">
+                    <ul style="margin-bottom:2rem;">
+                        <br><br>
+                        <div style="color:rgb(255, 221, 0); margin-left: 0.5rem;"><h3>MENU</h3></div>
+                        <li>
+                            <a href="#Home-Page">Home</a><br>
+                        </li>
+                        <li>
+                            <a href="#about-us">About Us</a><br>
+                        </li>
+                        <li>
+                            <a href="#tracks">Tracks</a><br>
+                        </li>
+                        <li>
+                            <a href="#timeline">Timeline</a><br>
+                        </li>
+                        <li>
+                            <a href="#sponsor">Sponsors</a><br>
+                        </li>
+                        <li>
+                            <a href="#faqs">F.A.Qs</a><br>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact Us</a><br>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div class="vitmas"><a href="https://www.vitmas.in/" target="_blank"><img src="./assets/images/vitmas.png" height="80px"></a>
+                        <b> <h3>Vellore Institute of Technology<br>
+                        Vellore, Tamil Nadu - 632014</h3></b></div>
+                    <br>
+                    <div class="con-info">
+                        <div class="container">
+                            <a href="mailto:vitmas@vit.ac.in">
+                                <div class="gmail"><img src="./assets/images/Gmail logo.png" height="30px">
+                                    <div class="con-info">
+                                        vitmas@vit.ac.in </div>
+                                </div>
+                            </a>
+                            <a href="https://wa.me/+919384834265">
+                                <div class="whatsapp"><img src="./assets/images/WhatsApp.png" height="30px">
+                                    <div class="con-info"> +91 93848 34265</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="logos">
+                        <div class="logo facebook"><a href="https://m.facebook.com/vitmasstudentchapter/" target="_blank"><img src="./assets/images/Facebook.png" height="30px"></a></div>
+                        <div class="logo instagram"><a href="https://www.instagram.com/vitmas_/" target="_blank"><img src="./assets/images/Instagram-1.png" height="30px"></a></div>
+                        <div class="logo youtube"><a href="https://www.youtube.com/channel/UCUFzpIySFcaGQkkFB68SdvQ" target="_blank"><img src="./assets/images/YouTube-1.png" height="30px"></a></div>
+                        <div class="logo linkedin"><a href="https://www.linkedin.com/company/66323751/admin/" target="_blank"><img src="./assets/images/LinkedIn Circled.png" height="30px"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-text">® VITMAS - VIT All Rights Reserved.</div>
+        </div>
+    </section>
+
+
+    <!-- scripts -->
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/timer.js"></script>
+
+    <!-- particle json cdn file -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <!-- app.js for particles -->
+    <script>
+      particlesJS.load("particles-js", "assets/particles.json", function () {
+        console.log("callback - particles.js config loaded");
+      });
+    </script>
+    <!-- fontawesome icons -->
+    <script
+      src="https://kit.fontawesome.com/927a0cb14f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

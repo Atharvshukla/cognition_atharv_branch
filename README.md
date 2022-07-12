@@ -1,1 +1,2 @@
-# cognition_atharv_branch
+# Cognition
+Official Website of Cognition Hackathon

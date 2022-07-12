@@ -1,0 +1,155 @@
+/* Nav Bar */
+.navbar{
+    display:none;
+}
+#mob-navbar{
+    position:absolute;
+    /* right:6px;
+    top:6px; */
+    margin:2rem;
+}
+#overlay a{
+    font-size: 1rem;
+}
+
+/* scroll down and discord positioning */
+#scroll-down{
+    left:0.5rem;
+    font-size:small;
+}
+
+.discord-logo{
+    font-size:large;
+}
+.discord-text{
+    color:white;
+    font-size:small;
+    font-family:'Poppins';
+    font-weight:100;
+}
+
+#Home-Page .main-logo{
+    height:150px;
+}
+
+#Home-Page{
+    color:white;
+}
+
+#main-heading{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
+
+#Home-Page .desc{
+    font-family:'Poppins';
+    font-weight:100;
+    font-size:10px;
+    word-spacing:0.2rem;
+    letter-spacing:0.1rem;
+}
+#Home-Page .title{
+    font-family:'Jura';
+    font-size:42px;
+    margin-bottom:2rem;
+}
+
+#timer{
+    display:flex;
+    font-size:24px;
+    font-family:'Poppins';
+}
+#timer-section .timer-title{
+    font-family:'Jura';
+    letter-spacing:0.1rem;
+    font-size:32px;
+    margin:2rem;
+}
+#timer-section .timer{
+    display:flex;
+    font-size:small;
+    font-family:'Poppins';
+}
+#date{
+    font-size:25px !important;
+}
+
+#scroll-down{
+    display:none;
+}
+
+#button{
+    width:fit-content;
+    
+}
+ 
+/*Timeline Section */
+@media only screen and (min-width: 768px) {
+    .timeline:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 2px;
+      height: 100%;
+      background-color: gray;
+    }
+  
+    .timeline ul li {
+      width: 50%;
+      position: relative;
+      margin-bottom: 50px;
+    }
+  
+    .timeline ul li:nth-child(odd) {
+      float: left;
+      clear: right;
+      transform: translateX(-30px);
+      border-radius: 20px 0px 20px 20px;
+    }
+  
+    .timeline ul li:nth-child(even) {
+      float: right;
+      clear: left;
+      transform: translateX(30px);
+      border-radius: 0px 20px 20px 20px;
+    }
+  
+    .timeline ul li::before {
+      content: "";
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      background-color: gray;
+      top: 0px;
+    }
+  
+    .timeline ul li:nth-child(odd)::before {
+      transform: translate(50%, -50%);
+      right: -30px;
+    }
+  
+    .timeline ul li:nth-child(even)::before {
+      transform: translate(-50%, -50%);
+      left: -30px;
+    }
+  
+    .timeline-content .date {
+      position: absolute;
+      top: -30px;
+    }
+  
+    .timeline ul li:hover::before {
+      background-color: #ff9f29;
+    }
+    
+  }
+/*Prizes Section */
+  .prizedescription{
+    font-size: 25px;
+    margin-top: 25%;
+  }
